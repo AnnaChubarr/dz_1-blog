@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
-    <link rel="stylesheet" href="/1-blog/2-form/style.css">
+    <link rel="stylesheet" href="../2-form/style.css">
 </head>
 <body>
     <main>
-        <div>
+        <section>
             <div>
                  <h1>Регистрация</h1>
                  <p>Уже есть аккаунт? <a href="#">Войти</a></p>
             </div>
         <form action="#">
-            <input type="text" placeholder="Компания" id="company" name="company">
+            <input type="text" placeholder="Моя компания" id="company" name="company" class="company">
             <div>
-                <input type="text" placeholder="Имя" name="name" required>
-                <input type="text" placeholder="Фамилия" name="surname" required>
+                <input type="text" placeholder="Имя" name="name" required class="inp">
+                <input type="text" placeholder="Фамилия" name="surname" required class="inp">
             </div>
                <div> 
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" required placeholder="E-mail" class="inp">
                </div>
             <button>Зарегистрироваться</button>
             <div>
-                <input type="checkbox" name="agree" id="agree" required>
+                <input type="checkbox" name="agree" id="agree" required class="check">
                 <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
             </div>
         </form>
-    </div>
+    </section>
     </main>
 </body>
 </html>
