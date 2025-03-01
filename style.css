@@ -1,0 +1,86 @@
+body{
+    background-color: #374151;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.63px;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.myBlog{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 
+    21.09px;
+}
+
+nav a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+input{
+    background-color: #1F293799;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+.dateTime{
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.name{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.works{
+font-size: 14px;
+line-height: 28px;
+}
+
+.img{
+    width: 896px;
+    height: 594px;
+}
+
+.heroText{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.text{
+    line-height: 30px;
+}
+
+.text a{
+    color: #FFFFFF;
+}
+
+footer p{
+    line-height: 28px;
+}
