@@ -1,24 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #374151;
 }
 
-.logo{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22.63px;
-}
 
 p{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
-}
-
-.myBlog{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 
-    21.09px;
 }
 
 nav a{
@@ -28,6 +22,7 @@ nav a{
     line-height: 18.75px;
     text-decoration: none;
 }
+
 
 li{
     list-style-type: none;
@@ -39,11 +34,10 @@ input{
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
-}
-
-.dateTime{
-    font-size: 14px;
-    line-height: 16.41px;
+    margin: 70px 180px 70px 0;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 0 10px 50px;
 }
 
 h1{
@@ -51,7 +45,41 @@ h1{
     font-size: 24px;
     font-weight: 400;
     line-height: 38px;
+    margin: 0 460px 30px;
 }
+
+footer p{
+    line-height: 28px;
+}
+
+footer{
+    margin: 0 610px 80px;
+}
+
+.text a{
+    color: #FFFFFF;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.63px;
+    margin-right: 23px;
+}
+
+.myBlog{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 
+    21.09px;
+}
+
+.dateTime{
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 0 630px 14px;
+}
+
 
 .name{
     font-size: 16px;
@@ -71,16 +99,43 @@ line-height: 28px;
 .heroText{
     font-size: 20px;
     line-height: 32px;
+    margin: 0 365px 70px;
 }
 
 .text{
     line-height: 30px;
+    margin: 0 366px 50px;
 }
 
-.text a{
-    color: #FFFFFF;
+.sectionTextbottom{
+    margin-bottom: 100px;
 }
 
-footer p{
-    line-height: 28px;
+.sectionLogo{
+display: flex;
+margin: 80px 77px 0 192px;
+}
+
+.navigation{
+    margin: 80px 346px 80px 0;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 52px;
+}
+
+
+.sectionNavigation{
+    display: flex;
+}
+
+.sectionName{
+    margin: 0 640px 30px;
+    display: flex;
+    gap: 16px;
+}
+
+.sectionImg{
+    margin: 0 272px 70px;
 }
