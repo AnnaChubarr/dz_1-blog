@@ -6,6 +6,12 @@
 
 body{
     background-color: #374151;
+    max-width: 1080px;
+}
+
+header{
+   margin: 0 auto;
+   padding: 71px 0 69px;
 }
 
 
@@ -34,7 +40,6 @@ input{
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
-    margin: 70px 180px 70px 0;
     border-radius: 100px;
     height: 40px;
     padding: 10px 0 10px 50px;
@@ -45,39 +50,41 @@ h1{
     font-size: 24px;
     font-weight: 400;
     line-height: 38px;
-    margin: 0 460px 30px;
-}
-
-footer p{
-    line-height: 28px;
 }
 
 footer{
-    margin: 0 610px 80px;
+    line-height: 28px;
+    text-align: center;
 }
+
 
 .text a{
     color: #FFFFFF;
 }
 
 .logo{
+    width: 35px;
+    height: 35px;
     font-size: 18px;
     font-weight: 600;
-    line-height: 22.63px;
-    margin-right: 23px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+    background: #4B5563;
+    box-shadow: 0 15px 30px rgb(0, 0, 0, 0.15);
 }
+
+
 
 .myBlog{
     font-size: 18px;
     font-weight: 400;
-    line-height: 
-    21.09px;
+    line-height: 21.09px;
 }
 
 .dateTime{
     font-size: 14px;
     line-height: 16.41px;
-    margin: 0 630px 14px;
 }
 
 
@@ -99,26 +106,28 @@ line-height: 28px;
 .heroText{
     font-size: 20px;
     line-height: 32px;
-    margin: 0 365px 70px;
+
 }
 
 .text{
     line-height: 30px;
-    margin: 0 366px 50px;
+
 }
 
 .sectionTextbottom{
     margin-bottom: 100px;
+    width: 708px;
 }
 
 .sectionLogo{
 display: flex;
-margin: 80px 77px 0 192px;
+text-decoration: none;
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 100%;
 }
 
-.navigation{
-    margin: 80px 346px 80px 0;
-}
 
 .navigation ul{
     display: flex;
@@ -128,14 +137,13 @@ margin: 80px 77px 0 192px;
 
 .sectionNavigation{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 77px;
 }
 
 .sectionName{
-    margin: 0 640px 30px;
     display: flex;
     gap: 16px;
 }
 
-.sectionImg{
-    margin: 0 272px 70px;
-}
