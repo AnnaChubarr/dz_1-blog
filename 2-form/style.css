@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@ h1{
     font-size: 36px;
     line-height: 100%;
     font-weight: 700;
+    margin-bottom: 7px;
 }
 
 p{
@@ -35,6 +38,7 @@ input{
     border: 1px solid #F5F5F5;
     font-size: 16px;
     font-style: italic;
+    font-family: Open Sans;
 }
 
 button{
@@ -44,6 +48,13 @@ button{
     font-size: 18px;
     border-radius: 5px;
     border: 3px solid #FFFFFF;
+    font-family: Open Sans;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #026d9a;
 }
 
 label{
@@ -62,11 +73,13 @@ align-items: center;
 justify-content: center;
 height: 573px;
 background-color: #FFFEFE;
+font-family: Open Sans;
 }
 
 .registration{
 margin-bottom: 47px;
 text-align: center;
+font-family: Open Sans;
 }
 
 .main_section{
