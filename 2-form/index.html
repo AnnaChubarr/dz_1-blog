@@ -4,26 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
-    <link rel="stylesheet" href="../2-form/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
+        <div class="container">
         <section>
-            <div>
+            <div class="registration">
                  <h1>Регистрация</h1>
-                 <h2>Убрать</h2>
                  <p>Уже есть аккаунт? <a href="#">Войти</a></p>
             </div>
-        <form action="#">
-            <label for="company" class="mycompany">Моя компания</label>
-            <input type="text" id="company" name="company" class="company">
+        <form action="#" class="main_section">
+            <input type="text" id="company" name="company" class="company" placeholder="Моя компания">
             <div>
-                <input type="text" placeholder="Имя" name="name" required class="inp">
+                <input type="text" placeholder="Имя" name="name" required class="input">
                 <input type="text" placeholder="Фамилия" name="surname" required class="inp">
             </div>
-               <div> 
                 <input type="email" name="email" id="email" required placeholder="E-mail" class="inp">
-               </div>
             <button>Зарегистрироваться</button>
             <div>
                 <input type="checkbox" name="agree" id="agree" required class="check">
@@ -31,6 +28,7 @@
             </div>
         </form>
     </section>
+</div>
     </main>
 </body>
 </html>

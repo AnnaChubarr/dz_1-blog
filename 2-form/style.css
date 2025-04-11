@@ -1,42 +1,87 @@
-main{
-background-color: #FFFEFE;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    max-width: 1440px;
+}
+
 h1{
     color: #333333;
-    font-weight: 700;
     font-size: 36px;
+    line-height: 100%;
+    font-weight: 700;
 }
+
 p{
     color: #666666;
     font-size: 18px;
+    line-height: 100%;
 }
-a{
+
+p a{
     color: #089FE0;
+    font-size: 18px;
+    line-height: 100%;
 }
-.company{
-background-color: #FFFFFF;
-}
-.inp{
+
+input{
     background-color: #F5F5F5;
-}
-::placeholder{
     color: #999999;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
     font-size: 16px;
     font-style: italic;
 }
 
 button{
     background-color: #089FE0;
-    font-size: 18px;
+    padding: 10px 100px;
     color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 3px solid #FFFFFF;
 }
+
 label{
     color: #666666;
     font-size: 14px;
 }
-.mycompany{
+
+label a{
+    color: #089FE0;
+    font-size: 14px;
+}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 573px;
+background-color: #FFFEFE;
+}
+
+.registration{
+margin-bottom: 47px;
+text-align: center;
+}
+
+.main_section{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.company::placeholder{
     color: #333333;
     font-size: 16px;
     font-weight: 600;
-    line-height: 21.79px;
+    font-style: normal;
+}
+
+.input{
+    margin-right: 1px;
 }
