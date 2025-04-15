@@ -71,7 +71,7 @@ label a{
 display: flex;
 align-items: center;
 justify-content: center;
-height: 573px;
+height: 100vh;
 background-color: #FFFEFE;
 font-family: Open Sans;
 }
@@ -95,6 +95,6 @@ font-family: Open Sans;
     font-style: normal;
 }
 
-.input{
+.input1{
     margin-right: 1px;
 }
